@@ -9,5 +9,14 @@ jobs:
         run: |
              echo "Hello World!"
              echo "Good Bye"
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sleeping message
+        run: echo"Sleeping 60s"
+      - name: sleep
+        run: sleep 60
+        
+    
 
       
