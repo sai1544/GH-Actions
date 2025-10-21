@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sleeping message
-        run: echo"Sleeping 60s"
+        run: echo "Sleeping 60s"
       - name: sleep
         run: sleep 60
         
